@@ -13,10 +13,8 @@
 **  = (Following a character) Baidu (白读) pronunciation
 **  {}   Brackets comments
 **  **   Starts a commented line
-**  []   Indicates a compound character which has a unicode representation
-**  [ ..#]  Indicates a compound character which has no unicode representation
+**  []   Indicates a unicode ideographic description sequence.
 **  #    Stands in place of a character which has no unicode representation
-**  ？   Stands in place of an unrepresentable character
 **
 **  Mistakes and omissions are believed to be few.
 **
@@ -81,7 +79,7 @@ ka35	槛卡楷舰
 ka42	快嵌䁍
 la213	腊蜡辣剌癫邋垺
 la22	烂滥赖1拉2攋缆
-la31	兰栏拦蓝篮𫷌[舍闌]{very similar to U+269FC. Am I sure that's not it??}
+la31	兰栏拦蓝篮𫷌[⿰舍闌]
 la33	拉1啦喇赖2
 la35	览揽榄懒澜
 ma213	脉麦埋2陌
@@ -116,9 +114,9 @@ ssa213	闸铡煠蚻
 ssa22	摲#
 ssa31	柴豺馋孱骸2
 ssa35	𩻣
-ta213	塔塌搨[火搨#]遢澾{suspect this could be substituted U+227A0}
+ta213	塔塌搨[⿰火𦐇]遢澾
 ta33	摊瘫滩1坍它拖2-溻勯
-ta35	坦1毯[舍禪#]袒1={similar to U+269F4/U+30C06. Am I sure that's not it?}
+ta35	坦1毯[⿰舍單]袒1=
 ta42	太叹泰炭碳汰
 ua213	挖
 ua33	弯湾歪
@@ -249,7 +247,7 @@ fang33	分1芬吩纷酚昏2-𱄀
 fang35	粉
 fang42	奋粪1=
 gang33	昆1跟1=根2-
-gang35	滚亘绲管2-䐊[写赣]#
+gang35	滚亘绲管2-䐊[⿰章寫]#
 gang42	棍謴#
 ggang31	浛1
 ggang22	浛2
@@ -417,13 +415,13 @@ le22	𤶁
 le31	牢劳痨唠捞涝
 le35	老佬
 me22	帽冒茂贸毛2
-me31	毛1谋髦眸蛑1[无好#]1娼
-me35	亩牡[无好#]2
+me31	毛1谋髦眸蛑1[⿰无子]1娼
+me35	亩牡[⿰无子]2
 ne22	耨
 ne35	脑恼瑙
 nge22	傲
 nge31	熬遨鳌敖翱
-pe33	𬱭[击橐#]
+pe33	𬱭#
 pe35	剖
 se33	骚臊搔
 se35	嫂
@@ -520,7 +518,7 @@ lei22	丽厉利吏荔励蛎隶痢俐劙1
 lei31	离黎厘狸梨犁篱璃罹黧
 lei33	劙2里2
 lei35	礼李里1鲤理俚涅娌蠡1履2
-mei22	未2-味1=魅?
+mei22	未2-味1=魅#
 mei31	迷眉弥谜1=醚靡楣媚鹛糜縻脗2
 mei33	眯咪渳脗1
 ** page 410 **
@@ -793,7 +791,7 @@ sii33	须需希稀斯蛳厮嘶撕虽绥牺嘻嬉熹禧胥颸2儒2尠𤷡{the pin
 sii35	水死始史使喜驶豕矢屎蟢数2-
 sii42	四虽岁戏税试恕赐暑絮庶戍肆𪖥
 ssii22	字示事自树1视寺侍饲瑞遂隧穗鲥
-ssii31	而如时词祠谁瓷辞殊磁糍隋随1=儒1孺茹耳2锄2-?鸶
+ssii31	而如时词祠谁瓷辞殊磁糍隋随1=儒1孺茹耳2锄2-#鸶
 ** page 420 ** previous line overflowed page break **
 ssii35	是士市尔似聚汝乳氏序恃柿树2竖墅巳祀绪在2
 zii213	这只2
@@ -869,7 +867,7 @@ so213	索
 so33	纱沙桫莎娑鲨唆嗦蓑嗦
 so35	所锁唢琐1
 so42	閯
-sso213	[言黹#]
+sso213	[⿱黹言]
 sso22	座2矬
 sso31	昨斜2睉
 ** page 423 **
@@ -918,8 +916,8 @@ koe35	砍款坎侃
 koe42	看勘磡墈
 loe213	粒
 loe22	乱论
-loe31	婪娈鸾銮栾峦孪挛[刀亦#]1蠡2
-loe33	嚧[刀亦#]2
+loe31	婪娈鸾銮栾峦孪挛[⿱亦刀]1蠡2
+loe33	嚧[⿱亦刀]2
 loe35	卵3=
 moe213	末抹沫没殁
 moe22	幔面3-雾2-懑镘
@@ -1004,7 +1002,7 @@ mong35	懵
 nong22	懦糯1
 nong31	浓1=脓侬农
 ong33	翁嗡
-ong42	滃齆[臭邕#]
+ong42	滃齆[⿰臭邕]
 pong33	肨
 pong35	捧
 pong42	椪碰
@@ -1048,7 +1046,7 @@ fov33	麸2-伕夫2-肤2-
 fov35	府腑俯2殕
 fov42	付副赋富傅赴2咐讣
 lov22	路类虑滤露1=鹭璐
-lov31	卢庐炉驴鸬鲈泸颅芦[水榈#]
+lov31	卢庐炉驴鸬鲈泸颅芦[⿰⺡闾]
 lov35	吕侣铝屡卤旅履1
 mov22	戊磨2
 mov31	魔模2-摩2-磨1
@@ -1120,10 +1118,10 @@ duo35	党挡1
 duo42	档当2挡2
 ** page 432 **
 gguo31	旷2-
-gguo35	彳犷[刀水#]
+gguo35	彳犷[⿱刀水]
 guo33	光江交刚跤鲛缸杠1胶=茭郊冈钢纲岗肛{杠}蛟荒2{note the repeated character has been bracketed}
 guo35	广讲港鉸1=搅1狡1=
-guo42	教较肴玫[土降#]降1杠2搅2
+guo42	教较肴玫[⿱降土]降1杠2搅2
 hhuo22	旺巷效校1=𥮕望1=
 hhuo31	房皇亡黄1行3防航凰倄爻忘1=杭簧蝗惶璜绗#
 hhuo35	项罔2
