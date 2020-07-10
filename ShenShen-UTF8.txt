@@ -1,8 +1,5 @@
 **  A character list of Wenzhou region pronunciations
 **
-**  Taken from the book by Shen Jia and Shen Kecun. Some
-**  corrections have been made.
-**
 **  The following symbols are used
 **
 **  1 (Following a character) most common pronunciation
@@ -15,8 +12,6 @@
 **  **   Starts a commented line
 **  []   Indicates a unicode ideographic description sequence.
 **  #    Stands in place of a character which has no unicode representation
-**
-**  Mistakes and omissions are believed to be few.
 **
 **
 **
